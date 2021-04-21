@@ -1,0 +1,57 @@
+Package: luci-app-ssr-plus
+Version: 183-7
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget-ssl, lua, libuci-lua, microsocks, dns2socks, shadowsocksr-libev-ssr-local, tcping, resolveip, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs, xray-core, trojan, ipt2socks, redsocks2
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 188925
+Filename: luci-app-ssr-plus_183-7_all.ipk
+Size: 189055
+SHA256sum: d3ea1495072ee2290dc2bfc19445d5a1fd28a88fd7a2827b342b4a5f636ec1e4
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 183-7
+Depends: libc, luci-app-ssr-plus
+Source: feeds/helloworld/luci-app-ssr-plus
+SourceName: luci-i18n-ssr-plus-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 6399
+Filename: luci-i18n-ssr-plus-zh-cn_183-7_all.ipk
+Size: 7243
+SHA256sum: 9639c72ca7169a20b015df008a259bc0896d4f228e67d2610a0016f75d196a72
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/helloworld/tcping
+SourceName: tcping
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3292
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3973
+SHA256sum: 0cab257f5d032af185623fda9766e0cceaf47a42ae8e503e89e07e8318f4fa72
+Description:  tcping measures the latency of a tcp-connection
+
+Package: xray-core
+Version: 1.3.0-1
+Depends: libc, ca-bundle
+Provides: v2ray-core
+Source: feeds/helloworld/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Tianling Shen <cnsztl@project-openwrt.eu.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 4037150
+Filename: xray-core_1.3.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4038679
+SHA256sum: ba5fb8d62e7fd273ed753e08619671626d98522871fe056842c3eb5ed12f47f7
+Description:  Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
+ It secures your network connections and thus protects your privacy.
+
